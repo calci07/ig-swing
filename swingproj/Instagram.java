@@ -104,7 +104,7 @@ public class Instagram {
         protected void paintComponent(Graphics g) {
             Graphics2D g2 = (Graphics2D) g.create(); 
             g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); // para smooth yung gilid gilid
-            g2.setColor(backgroundColor); // Set color to text field's background color
+            g2.setColor(backgroundColor); 
             g2.fillRoundRect(0, 0, getWidth() - 1, getHeight() - 1, radius, radius); 
 
             if (getBorder() != null) {
